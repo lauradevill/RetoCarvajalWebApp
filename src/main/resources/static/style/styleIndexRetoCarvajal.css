@@ -1,0 +1,53 @@
+:root {
+  --darkblue: #12305B;
+  --blue: #05AFC0;
+  --green: #84BD00;
+  --ligh-green: #f1fdfa;
+  --white: #ffffff;
+  --black: #000000;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: var(--ligh-green);
+  margin: 0;
+}
+.nav-bar {
+    width: 100vw;
+    height: 80px;
+    background-color: var(--darkblue);
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar img {
+    height: 70px;
+    margin-left: 10px;
+}
+.nav-bar p{
+    color: var(--ligh-green);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+h1 {
+    text-align: center;
+    color: var(--blue);
+}
+h2 {
+    text-align: center;
+    color: var(--blue);
+    margin-top: 10px;
+}
+.table-container table {
+  margin-top: 10px;
+}
+.main-container {
+    margin-top: 30px;
+}
+.product-card {
+  width: 240px;
+}
+.product-card img {
+  width: 240px;
+  height: 240px;
+  border-radius: 20px;
+  object-fit: cover;
+}
